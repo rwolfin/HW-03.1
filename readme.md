@@ -2,7 +2,7 @@
 Шаблон одностраничного новостного сайта, разработан в качестве практического задания на курсе skillfactory.ru
 Демостнацию c GitPages [можно посмотреть здесь](https://rwolfin.github.io/HW-03.1/) 
 
-## Используемые теги HTML
+:anger: ## Используемые теги HTML
 - html
 - head
 - meta
@@ -15,7 +15,7 @@
 - article
 - h2
 
-## CSS классы в тегах
+:anger: ## CSS классы в тегах
 - container
 - item-news
 - item-meta
@@ -25,7 +25,7 @@
 - copyright
 - links
 
-## Использовались Селекторы тегов
+:anger: ## Использовались Селекторы тегов
 - body
 - header 
 - h1
