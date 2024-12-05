@@ -39,4 +39,5 @@
 ## Псевдо классы 
 - :hover
 - :before
+- :nth-child(even)
 
