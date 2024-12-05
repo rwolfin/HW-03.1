@@ -14,6 +14,7 @@
 - div
 - section
 - article
+- h1
 - h2
 
 ## CSS классы в тегах
