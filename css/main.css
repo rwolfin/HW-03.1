@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+
+header {
+    height: 400px;
+    background: url(../img/bg.jpg) #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    color: #ffffff;
+}
+
+h1{
+	font-size: 7rem;
+	text-transform: lowercase;
+    text-shadow: 3px 7px 10px #000000b5;
+}
+
+article a {
+	color:rgb(33, 37, 41);
+	text-decoration: none;
+}
+
+article a:hover{
+	color:#0085a1;
+}
+
+article h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-bottom:5px;
+}
+
+article img{
+	width:100%;
+	height:300px;
+	object-fit: cover;
+}
+
+.item-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 15px;
+}
+
+footer{
+	padding:20px 0 60px 0;
+	text-align:center;
+	background: #f1f1f1;
+}
+
+
+footer .links {
+	margin-bottom:50px;
+}
+
+footer .links > a {
+	color:gray;
+	padding:0 25px;
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:1rem;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+footer .links > a:hover{
+color: #53e153;
+}
+
+.copyright {
+	color: rgb(108, 117, 125);
+	font-family:'Times New Roman', Times, serif;
+} 
+
+
+.item-news{
+	background-color:#fff;
+    padding: 20px 0 30px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+
+.flex.justify-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.data:before {
+content: '';
+background: url(../img/callendar.png);
+width: 25px;
+height: 25px;
+display: inline-block;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+	font-size: 11px;
+}
