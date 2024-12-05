@@ -78,7 +78,6 @@ color: #53e153;
 
 
 .item-news{
-	background-color:#fff;
     padding: 20px 0 30px;
 }
 
@@ -107,4 +106,13 @@ display: inline-block;
     align-items: center;
     gap: 5px;
 	font-size: 11px;
+}
+
+.news{
+	    padding: 20px;
+}
+
+.news:nth-child(even) {
+    background: #38522f17;
+    border-radius: 5px;
 }
