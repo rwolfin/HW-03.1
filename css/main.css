@@ -33,6 +33,7 @@ article a:hover{
 article h2 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-bottom:5px;
+	margin-top: 0px;
 }
 
 article img{
@@ -113,7 +114,28 @@ display: inline-block;
 	    padding: 20px;
 }
 
+
+/*
+Ниже еще оди вариант стиля :nth-child(2n) который можно использовать
+*/
+
+.news:nth-child(2n) {
+    background: #38522f17;
+    border-radius: 5px;
+}
+
+/**
+Можем еще использовать (even) для решения данной задачи
+
 .news:nth-child(even) {
     background: #38522f17;
     border-radius: 5px;
 }
+
+**/
+
+.item-news.item-link:nth-child(2)::after {
+content: 'News';
+}
+
+
