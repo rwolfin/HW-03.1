@@ -134,8 +134,28 @@ display: inline-block;
 
 **/
 
-.item-news.item-link:nth-child(2)::after {
-content: 'News';
+.news:nth-child(-n+2)::before {
+	content: 'New';
+    background: #8c54cc;
+    padding: 8px;
+    border-radius: 5px;
+    color: #fff;
 }
 
 
+
+.pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background: #dcffc4;
+    padding: 15px 0px;
+    border-radius: 8px;
+}
+
+
+.pagination li:nth-child(8) {
+    color: #8c54cc;
+    font-weight: bolder;
+	text-decoration: underline;
+}
