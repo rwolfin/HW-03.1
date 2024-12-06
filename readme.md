@@ -40,4 +40,6 @@
 - :hover
 - :before
 - :nth-child(even)
+- :nth-child(2n)
+- :nth-child(-n+2)::before
 
